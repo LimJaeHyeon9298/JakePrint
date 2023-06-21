@@ -7,12 +7,13 @@
 //
 
 import UIKit
+import JakePrint
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        Jake.sayHello(with: "jake")
     }
 
     override func didReceiveMemoryWarning() {
